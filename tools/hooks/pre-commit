@@ -1,4 +1,3 @@
-#!/usr/local/bin/python
-import sys, os
-print "yo! this is the pre-commit hook from user defined hook"
-sys.exit(1)
+#!/bin/sh
+echo "start pre-commit python script."
+python ./tools/hooks/pre-commit.py
