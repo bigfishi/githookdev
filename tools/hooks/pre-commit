@@ -1,3 +1,4 @@
 #!/bin/sh
 echo "start pre-commit python script."
-python ./tools/hooks/pre-commit.py
+
+./tools/Python27/python.exe ./tools/hooks/pre-commit.py
