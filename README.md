@@ -1,0 +1,2 @@
+# githookdev
+dev git hook
